@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, View } from 'react-native';
+import MyFirstComponent from './screens/MyFirstComponent';
 export default function App() {
   return (
     <View style={styles.container}>
-      <SafeAreaView>
-        <Text>My first component</Text>
-      </SafeAreaView>
+      <MyFirstComponent />
     </View>
   );
 }

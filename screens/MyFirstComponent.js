@@ -1,10 +1,13 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import { SafeAreaView, Text} from 'react-native';
 const MyFirstComponent = () => {
+
+  const [userName, setUserName] = useState('')
+  
   return (
-    <div>
-      
-    </div>
+    <SafeAreaView>
+        <Text>My first component</Text>
+    </SafeAreaView>
   )
 }
 
