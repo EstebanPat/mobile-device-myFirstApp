@@ -8,6 +8,7 @@ const MyFirstComponent = () => {
     <SafeAreaView>
         <Text>My first component</Text>
     </SafeAreaView>
+    
   )
 }
 
