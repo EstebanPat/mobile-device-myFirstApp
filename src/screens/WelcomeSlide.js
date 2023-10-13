@@ -16,7 +16,7 @@ const WelcomeSlide = () => {
     const Slide1 = () => {
       return (
         <View>
-          <ImageBackground source={require('./images/reloj.jpg')} style={StyleSheet.imgBackground}>
+          <ImageBackground source={require('./images/reloj.jpg')} style={styles.imgBackground}>
 
           </ImageBackground>
         </View>
@@ -25,7 +25,7 @@ const WelcomeSlide = () => {
     const Slide2 = () => {
       return (
         <View>
-          <ImageBackground source={require("./images/aaron2.png")} style={StyleSheet.imgBackground}>
+          <ImageBackground source={require("./images/aaron2.png")} style={styles.imgBackground}>
 
           </ImageBackground>
         </View>
@@ -34,7 +34,7 @@ const WelcomeSlide = () => {
     const Slide3 = () => {
       return (
         <View>
-          <ImageBackground source={require('./images/bombillo.jpg')} style={StyleSheet.imgBackground}>
+          <ImageBackground source={require('./images/bombillo.jpg')} style={styles.imgBackground}>
             <Button title='Registro' onPress={goToRegister} /> 
             <Button title='Inicio de Sesion' onPress={goToLogin} />
           </ImageBackground>
